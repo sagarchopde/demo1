@@ -20,6 +20,7 @@ public class EmployeeController {
 	@RequestMapping("namesData1")
 	String[] giveYourNames1() {
 		System.out.println(empService);
+		System.out.println("in two");
 		return empService.giveYourNames();
 	}
 }
