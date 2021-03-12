@@ -13,6 +13,14 @@ public class EmployeeController {
 	@RequestMapping("namesData")
 	String[] giveYourNames() {
 		System.out.println(empService);
+		System.out.println("in one");
+		return empService.giveYourNames();
+	}
+	
+	@RequestMapping("namesData1")
+	String[] giveYourNames1() {
+		System.out.println(empService);
+		System.out.println("in two");
 		return empService.giveYourNames();
 	}
 }
