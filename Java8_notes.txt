@@ -1,0 +1,6 @@
+Default methods in interface in Java8:
+1. interface is a contract 
+
+
+static method in interface :
+static method cannot be overriden
